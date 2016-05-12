@@ -1,0 +1,4 @@
+[
+    { "keys": ["alt+shift+l"], "command": "split_lines" },
+    { "keys": ["alt+shift+j"], "command": "join_lines" }
+]
