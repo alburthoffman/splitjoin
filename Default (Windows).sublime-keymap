@@ -1,4 +1,13 @@
 [
-    { "keys": ["alt+shift+l"], "command": "split_lines" },
-    { "keys": ["alt+shift+j"], "command": "join_lines" }
+    { "keys": ["alt+f1+l"], "command": "split_lines" },
+    { "keys": ["alt+f1+j"], "command": "join_lines" },
+    { "keys": ["alt+f1+u"], "command": "uniq_lines" },
+    { "keys": ["alt+f1+o"], "command": "sort_lines" },
+    { "keys": ["alt+f1+b"], "command": "block_selection" },
+    { "keys": ["alt+f1+'"], "command": "block_selection", "args": {"pattern": "'"} },
+    { "keys": ["alt+f1+`"], "command": "block_selection", "args": {"pattern": "`"} },
+    { "keys": ["alt+f1+1"], "command": "block_selection", "args": {"pattern": "\""} },
+    { "keys": ["alt+f1+2"], "command": "block_pair_selection", "args": {"pattern1": "{", "pattern2": "}"} },
+    { "keys": ["alt+f1+3"], "command": "block_pair_selection", "args": {"pattern1": "\\(", "pattern2": "\\)"} },
+    { "keys": ["alt+f1+4"], "command": "block_pair_selection", "args": {"pattern1": "[", "pattern2": "]"} }
 ]
